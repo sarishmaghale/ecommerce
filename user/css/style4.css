@@ -1,0 +1,143 @@
+
+
+        .main{
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin: auto;
+}
+
+.card{
+    width: 265px;
+  
+    text-align: center;
+    height: 480px;
+    border: 1px solid lightgray;
+    margin: 20px;
+}
+
+.card .image{
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+
+.card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .caption{
+    padding-left: 1em;
+    text-align: left;
+    line-height: 3em;
+    height: 25%;
+}
+
+.card .caption p{
+    font-size: 1.5rem;
+}
+
+
+
+del{
+    text-decoration: line-through;
+}
+
+.card .caption .rate{
+    display: flex;
+}
+
+ .card .caption .rate i{
+    color: red;
+    margin-left: 2px;
+}
+
+.card a{
+    width: 50%;
+}
+
+.add{
+    border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 1.5em;
+    font-weight: bold;  
+}
+
+
+.glider .category{
+    padding:5px;
+  position: relative;
+  max-width: 1200px;
+}
+.category img{
+    opacity:0.9;
+}
+ .glider .category .type{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size:30px;
+  transform: translate(-60%, -50%);
+}
+.glider button{
+    border: none;
+   
+}
+
+ .card .add{
+    border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 1.5em;
+    font-weight: bold;
+    position: relative;
+}
+.title {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+  }
+  
+  .title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .buy_now{
+    float: right;
+    margin-right: 5%;
+    padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+ 
+  border: 2px solid #f44336;
+
+ }
+ .buy_now:hover {
+    background-color: white; 
+  color: black; 
+}
+

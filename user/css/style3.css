@@ -1,0 +1,32 @@
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.p-slider{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.product-slider-heading{
+font-size:28px;
+text-transform: uppercase;
+color:#313131;
+text-align: center;
+margin: 0px;
+}
